@@ -127,7 +127,7 @@ Perform:
 
 With flags -s -S qemu awaits connection of external debugging software with port tcp::1234. Open a new terminal window and perform:
 ```sh
->>> arm-none-eabi-gdb firmware.elf 
+>>> gdb-multiarch firmware.elf 
 ```
 
 If successful:
